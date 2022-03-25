@@ -1,8 +1,6 @@
 import React from "react";
 import "./card.scss";
 
-import image from "./mount-fuji.jpg";
-
 const Card = ({ tite, location, startDate, endDate, description, imageUrl }) => {
   return (
     <div className='container'>
